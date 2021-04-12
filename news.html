@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="inner-width">
+      <div class="menu-icon">
+        <i class="fas fa-align-right"></i>
+      </div>
+    </div>
+  </header>
+
+  <div class="navigation-menu">
+    <nav>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="bug.html">Bug Consigli</a></li>
+      <li><a href="social.html">Social</a></li>
+    </nav>
+  </div>
+  <h1 class="maintitle">News</h1>
+  <p>
+    In questa sezione è possibile collegarsi allo spazio di archiviazione di Google Drive di Superiori Bresciane dove sono presenti le ultime notizie e documenti riguardanti le scuole o qualche scuola nello specifico.
+    All'interno dell'archivio vengono aggiornate le notizie aggiunte e/o rimosse che vengono controllate.
+  <a href="https://www.google.it"><h2 class="secondtitle">APRI L'ARCHIVIO</h2></a>
+  <script>
+    $(".menu-icon").click(function(){
+      $(this).toggleClass("active");
+      $(".navigation-menu").toggleClass("active");
+      $(".menu-icon i").toggleClass("fa-times");
+    });
+  </script>
+</body>
+</html>
