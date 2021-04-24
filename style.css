@@ -157,6 +157,14 @@ p{
   color: #577eff;
   text-align: center;
 }
+.titleparag {
+  max-width: 80%;
+  margin: auto;
+  padding: 40px 0;
+  line-height: 1.4em;
+  text-align: left;
+}
+
 .social {
   display: flex;
   flex-flow: row wrap;
