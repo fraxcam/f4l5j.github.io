@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #121212;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -17,19 +17,18 @@ display: none;
 .sidebar {
   position: fixed;
   overflow: scroll;
-  border-top-right-radius: 32px;
-  border-bottom-right-radius: 32px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
   left: -250px;
   width: 250px;
   height: 100%;
-  background: #f7fbff;
+  background: #212121;
   transition: all .5s ease;
 }
 .sidebar header {
-  margin-top: 15px;
-  margin-bottom: 5px;
+  margin-top: 18px;
   font-size: 22px;
-  color: black;
+  color: white;
   line-height: 70px;
   text-align: center;
   user-select: none;
@@ -40,7 +39,7 @@ display: none;
   width: 100%;
   line-height: 65px;
   font-size: 20px;
-  color: black;
+  color: white;
   padding-left: 40px;
   box-sizing: border-box;
   border-bottom: 1px;
@@ -63,11 +62,11 @@ label #btn,label #cancel{
 label #btn{
   left: 40px;
   top: 25px;
-  background-color: #f7fdff;
-  border-radius: 15px;
+
+  border-radius: 5px;
   font-size: 35px;
   color: white;
-  padding: 6px 12px;
+  padding: 3px 8px;
   transition: all .5s;
 }
 label #cancel{
@@ -101,7 +100,6 @@ section{
 }
 
 
-
 *{
   margin: 0;
   padding: 0;
@@ -113,7 +111,7 @@ section{
 
 p{
   font-family: 'Montserrat-Light';
-  color: #575d69;
+  color: white;
   max-width: 80%;
   margin: auto;
   padding: 40px 0;
@@ -121,7 +119,6 @@ p{
   line-height: 1.4em;
   text-align: justify;
 }
-
 .cookie-container {
   position: fixed;
   bottom: -100%;
@@ -153,13 +150,72 @@ p{
   border-radius: 8px;
   cursor: pointer;
 }
+#username{
+  border: none;
+  background-color: #f2f6ff;
+  padding-left:17px;
+  border-radius: 7px;
+  height: 58px;
+  width: 218px;
+  font-size: 18px;
+}
+#password{
+  border: none;
+  background-color: #f2f6ff;
+  padding-left:17px;
+  border-radius: 7px;
+  height: 58px;
+  width: 218px;
+  font-size: 18px;
+}
+#passwordsee{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  margin-left: -34px;
+  margin-top: 17px;
+  content: url("icons/eye.ico");
+}
+#passwordsee:checked{
+  content: url("icons/closeeye.ico");
+}
+#buttonlogin{
+  border: none;
+  background-color: #3381ff;
+  height: 40px;
+  width: 80px;
+  border-radius: 8px;
+  font-size: 15px;
+  box-shadow: 0px 3px 0px 0px #1B3D8E;
 
+}
+.live{
+    width: 100vw;
+    height: 56.25vw; /* height:width ratio = 9/16 = .5625  */
+    max-height: 100vh;
+    max-width: 177.78vh; /* 16/9 = 1.778 */
+    margin: auto;
+    top:0;bottom:0; /* vertical center */
+    left:0;right:0; /* horizontal center */
+}
+.video{
+    width: 100vw;
+    height: 56.25vw; /* height:width ratio = 9/16 = .5625  */
+    max-height: 100vh;
+    max-width: 177.78vh; /* 16/9 = 1.778 */
+    margin: auto;
+    top:0;bottom:0; /* vertical center */
+    left:0;right:0; /* horizontal center */
+}
 .maintitle {
-  color: #6056ef;
+  font-family: 'Montserrat-Italic';
+  opacity: 1;
+  font-size: 120px;
+  color: #ffbf00;
   text-align: center;
 }
 .secondtitle {
-  color: #6056ef;
+  color: #ffa836;
   text-align: center;
 }
 .titleparag {
@@ -169,7 +225,9 @@ p{
   line-height: 1.4em;
   text-align: left;
 }
-
+#privata{
+  text-align: center;
+}
 .social {
   display: flex;
   flex-flow: row wrap;
@@ -180,14 +238,22 @@ p{
   margin: -3px -3px -6px -3px;
   height: 38px;
 }
+.backicon {
+  margin: -3px -3px -6px -3px;
+  height: 32px;
+}
 .icon {
   width: 45px;
   padding: 0px 7px 0px 7px;
 }
 
 .imgincontent {
-  margin-top: 10px;
-  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 350px;
 }
 
 
@@ -199,7 +265,10 @@ p{
    font-family: 'Montserrat-Light';
    src: url('fonts/Montserrat/Montserrat-Light.ttf') format('truetype');;
 }
-
+@font-face {
+   font-family: 'Montserrat-Italic';
+   src: url('fonts/Montserrat/Montserrat-Italic.ttf') format('truetype');;
+}
 a {
    text-decoration: none;
   color: #577eff;
