@@ -231,7 +231,16 @@ p {
 }
 
 .cookie-container.active {
-  bottom: 0;
+  position: fixed;
+  display: flex;
+  flex-flow: nowrap row;
+  bottom: 0; 
+  left: 30%;
+  right: 30%;
+  background: #2f3640;
+  color: #f5f6fa;
+  padding: 14px 14px 14px 14px;
+  box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
 }
 
 .cookie-container a {
