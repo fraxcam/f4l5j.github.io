@@ -111,7 +111,7 @@ section{
   transition: 0.3s;
   width: 180px;
   margin-top: 4px;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
   border-radius: 10px;
 }
 
@@ -140,8 +140,8 @@ section{
 .icondisclamer {
   position: absolute;
   height: 50px;
-  margin-top: -21px;
-  margin-left: -30px;
+  margin-top: -15px;
+  margin-left: -36px;
 }
 .container {
   margin-top: -5px;
@@ -223,6 +223,8 @@ p {
   right: 0;
   background: #2f3640;
   color: #f5f6fa;
+  margin-bottom: 700px;
+  margin-bottom: 700px;
   padding: 0 32px;
   box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
 
@@ -241,7 +243,7 @@ p {
   background: #e84118;
   border: 0;
   color: #f5f6fa;
-  padding: 12px 48px;
+  padding: 10px 38px;
   font-size: 18px;
   margin-bottom: 16px;
   border-radius: 8px;
