@@ -254,6 +254,12 @@ p {
   font-family: 'Montserrat-Light';
   font-size: 17px;
 }
+#linkcookies{
+  font-family: 'Montserrat-Light';
+  text-decoration: underline;
+  text-decoration-color: white;
+  font-size: 17px;
+}
 .cookie-container a {
   color: #f5f6fa;
 }
