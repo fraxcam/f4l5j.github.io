@@ -215,14 +215,19 @@ p {
   line-height: 2.5em;
   list-style-type: square;
 }
-
+.flexcookies{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
 .cookie-container {
   position: fixed;
   display: flex;
   flex-flow: nowrap row;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items:center;
   bottom: -100%;
-  width: 300px;
+  width: 350px;
   background: #2f3640;
   color: #f5f6fa;
   padding: 14px 14px 14px 14px;
@@ -234,9 +239,10 @@ p {
   position: fixed;
   display: flex;
   flex-flow: nowrap row;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items:center;
   bottom: 0;
-  width: 300px;
+  width: 350px;
   background: #2f3640;
   color: #f5f6fa;
   padding: 14px 14px 14px 14px;
