@@ -244,28 +244,32 @@ p {
   align-items:center;
   bottom: 0;
   width: 350px;
-  background-color: #2f3640;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: rgba(0,0,0,.87);
   color: #f5f6fa;
   padding: 14px 14px 14px 14px;
 }
 #cookiescritta{
-  font-size: 19px;
+  font-family: 'Montserrat-Light';
+  font-size: 17px;
 }
 .cookie-container a {
   color: #f5f6fa;
 }
 
 .cookie-btn {
+  background-color: rgba(0,0,0,.87);
   border: 0;
   color: #2ad37b;
-  padding: 10px 30px;
+  padding: 10px 28px;
   font-size: 20px;
   border-radius: 8px;
   cursor: pointer;
   transition: .3s;
 }
 .cookie-btn:hover{
-  background: rgba(0,0,0,1);
+  background: rgb(37, 150, 190);
   color: white;
   border: solid;
   border-color: #2ad37b;
