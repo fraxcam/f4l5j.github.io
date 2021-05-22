@@ -221,15 +221,12 @@ p {
   display: flex;
   flex-flow: nowrap row;
   bottom: -100%;
-  left: 0;
-  right: 0;
+  left: 700px;
+  right: 700px;
   background: #2f3640;
   color: #f5f6fa;
-  margin-right: 700px;
-  margin-left: 700px;
   padding: 0 12px;
   box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
-
   transition: 400ms;
 }
 
@@ -247,7 +244,6 @@ p {
   color: #f5f6fa;
   padding: 10px 38px;
   font-size: 18px;
-  margin-bottom: 16px;
   border-radius: 8px;
   cursor: pointer;
 }
