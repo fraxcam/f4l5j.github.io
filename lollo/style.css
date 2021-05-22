@@ -228,10 +228,11 @@ p {
   align-items:center;
   bottom: -100%;
   width: 350px;
-  background: #2f3640;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  background-color: rgba(0,0,0,.87);
   color: #f5f6fa;
   padding: 14px 14px 14px 14px;
-  box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
   transition: 400ms;
 }
 
@@ -243,28 +244,32 @@ p {
   align-items:center;
   bottom: 0;
   width: 350px;
-  background: #2f3640;
+  background-color: #2f3640;
   color: #f5f6fa;
   padding: 14px 14px 14px 14px;
-  box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
 }
 #cookiescritta{
-  font-size: 20px;
+  font-size: 19px;
 }
 .cookie-container a {
   color: #f5f6fa;
 }
 
 .cookie-btn {
-  background: #e84118;
   border: 0;
-  color: #f5f6fa;
-  padding: 10px 38px;
-  font-size: 18px;
+  color: #2ad37b;
+  padding: 10px 30px;
+  font-size: 20px;
   border-radius: 8px;
   cursor: pointer;
+  transition: .3s;
 }
-
+.cookie-btn:hover{
+  background: rgba(0,0,0,1);
+  color: white;
+  border: solid;
+  border-color: #2ad37b;
+}
 .maintitle {
   color: #6056ef;
   text-align: center;
