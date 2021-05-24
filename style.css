@@ -62,11 +62,11 @@ label #btn,label #cancel{
 label #btn{
   left: 40px;
   top: 25px;
-
-  border-radius: 5px;
+  background-color: #121212;
+  border-radius: 8px;
   font-size: 35px;
   color: white;
-  padding: 3px 8px;
+  padding: 3px 10px;
   transition: all .5s;
 }
 label #cancel{
@@ -210,9 +210,12 @@ p{
 .maintitle {
   font-family: 'Montserrat-Italic';
   opacity: 1;
-  font-size: 120px;
+  font-size: 110px;
   color: #ffbf00;
   text-align: center;
+}
+#changecolor:hover{
+  color:blue;
 }
 .secondtitle {
   color: #ffa836;

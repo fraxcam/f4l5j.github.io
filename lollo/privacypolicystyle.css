@@ -10,7 +10,23 @@ body {
                                   supported by Chrome, Opera and Firefox */
 }
 ::-webkit-scrollbar {
-display: none;
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6056ef;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(96, 86, 239, 0.66);
 }
 
 .sidebar {
