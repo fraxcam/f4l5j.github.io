@@ -59,6 +59,7 @@ ul li:hover a{
 label #btn,label #cancel{
   position: fixed;
   cursor: pointer;
+  z-index: 111111;
 }
 label #btn{
   left: 40px;
@@ -99,7 +100,33 @@ section{
   height: 100vh;
   transition: all .5s;
 }
-
+.spotifyiframe{
+  margin: 10px 10px 10px 10px;
+}
+#homeflex{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.utility{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: column wrap;
+  background-color: #e3e3e3;
+  border-radius: 18px;
+  padding: 8px 8px 5px 8px;
+  margin: 5px 15px 10px 15px;
+  width: 100px;
+  height: 110px;
+}
+.homeicon{
+  width: 40px;
+}
+.icontext{
+  font-size: 18px;
+  text-align: center;
+}
 .alcol-container {
   position: fixed;
   display: flex;

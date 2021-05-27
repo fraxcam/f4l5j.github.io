@@ -29,8 +29,46 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
   <h1 class="maintitle">Benvenuti</h1>
   <p>
     Questo sito verrà continuamente aggiornato, continueremo ad aggiungere nuove funzioni.
-    Questa applicazione è stata creata per i ragazzi e le ragazze di Brescia. In questo sito si possono trovare notizie e documenti salvati all'interno dell'archivio dove si può andare a consultarli. Con i futuri aggiornamenti verrannò aggiornate diverse cose e forse verranno aggiunte nuove funzioni. Questo testo ha scopo illustrativo
+    Questo sito è stato creato per i ragazzi di Brescia. In questo sito si possono trovare notizie, documenti salvati nell'archivio dove si può andare a vederli. In futuro verrannò aggiornate cose.
   </p>
+  <br>
+  <script>
+    function aperitivi()
+    {
+      window.location.href="aperitivi.html";
+    }
+    function news()
+    {
+      window.location.href="news.html";
+    }
+    function faq()
+    {
+      window.location.href="faq.html";
+    }
+    function podcast()
+    {
+      window.location.href="social.html";
+    }
+  </script>
+  <div id="homeflex">
+    <div  onclick="aperitivi()" style="cursor:pointer"  class="utility">
+        <img class="homeicon" src="images/aperitivi.png" alt="Avatar">
+        <h2 class="icontext">Aperitivi</h2>
+    </div>
+    <div  onclick="news()" style="cursor:pointer" class="utility">
+        <img class="homeicon" src="images/news.png" alt="Avatar">
+        <h2 class="icontext">News</h2>
+    </div>
+    <div  onclick="faq()" style="cursor:pointer" class="utility">
+        <img class="homeicon" src="images/faq.png" alt="Avatar">
+        <h2 class="icontext">Faq</h2>
+    </div>
+    <div  onclick="podcast()" style="cursor:pointer" class="utility">
+        <img class="homeicon" src="images/podcast.png" alt="Avatar">
+        <h2 class="icontext">Podcast</h2>
+    </div>
+  </div>
+  <br><br><br>
   <h2 class="secondtitle">Social</h2>
   <div class="social">
     <a href="https://www.instagram.com/f4l5j/"><img class="icon" src="icons/instagram.png"></a>
