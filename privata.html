@@ -1,2 +1,22 @@
 <!DOCTYPE html><html lang=it><head><title>Area privata</title><link rel="shortcut icon" href="icons/icon.ico"/><meta name=viewport content="width=device-width, user-scalable=no,
-initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><link rel=stylesheet href=style.css></head><body><input type=checkbox id=check><label for=check><i class="fas fa-bars" id=btn><img class=menuicon src=icons/menu.png></i><i class="fas fa-times" id=cancel><img class=menuicon src=icons/indietro.png></i></label><div class=sidebar><header>F4L5J</header><ul><li><a href=index.html><i></i>Home</a></li><li><a href=server.html><i></i>Server</a></li><li><a href=test.html><i></i>Privata</a></li></ul></div><br><br><br><br><br><h1 class=maintitle>Area Privata</h1><br><p id=privata>Questa sezione Ã¨ accessibile solo al personale autorizzato. Qui vengono provate funzionalitÃ o altre cose</p><div align=middle><form><input type=text id=username placeholder=Username><br><br><input type=password id=password placeholder=Password><input type=checkbox id=passwordsee onclick=myFunction()><br><br><button type=button id=buttonlogin onclick=getInfo()>ENTRA</button></form><script src=main2.js></script><div><div class=cookie-container><p> Utilizziamo i cookie in questo sito Web per offrirti la migliore esperienza. Per saperne di piÃ¹, leggi la nostra <a href=privacypolicy.html>privacy policy</a> - <a href=privacypolicy.html>terms and conditions</a> - <a href=privacypolicy.html>cookie policy</a>. </p><button class=cookie-btn>Okay</button></div><script>function blocco_mousedx(){return!1}document.oncontextmenu=blocco_mousedx;</script><script>document.onkeydown=function(a){if(123==event.keyCode||a.ctrlKey&&a.shiftKey&&73==a.keyCode||a.ctrlKey&&a.shiftKey&&67==a.keyCode||a.ctrlKey&&a.shiftKey&&74==a.keyCode||a.ctrlKey&&85==a.keyCode)return!1};</script> <script src=main.js></script><script>$(".menu-icon").click(function(){$(this).toggleClass("active");$(".navigation-menu").toggleClass("active");$(".menu-icon i").toggleClass("fa-times")});</script></body></html>
+initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><link rel=stylesheet href=style.css></head><body>
+<input type=checkbox id=check>
+<label for=check>
+<i class="fas fa-bars" id=btn><img class=menuicon src=icons/menu.png></i>
+<i class="fas fa-times" id=cancel><img class=menuicon src=icons/indietro.png></i>
+</label><div class=sidebar>
+<header>F4L5J</header><ul><li><a href=index.html><i></i>Home</a></li><li><a href=server.html><i></i>Server</a></li><li><a href=test.html><i></i>Privata</a></li></ul></div>
+<br><br><br><br><br><h1 class=maintitle>Area Privata</h1><br><p id=privata>Questa sezione è accessibile solo al personale autorizzato. Qui vengono provate funzionalità o altre cose</p><div align=middle><form>
+<input type=text id=username placeholder=Username>
+<br><br>
+<input type=password id=password placeholder=Password><input type=checkbox id=passwordsee onclick=myFunction()>
+<br><br>
+<button type=button id=buttonlogin onclick=getInfo()>ENTRA</button></form>
+<script src=main2.js></script><div><div class=cookie-container><p>
+Utilizziamo i cookie in questo sito Web per offrirti la migliore esperienza. Per saperne di più, leggi la nostra
+<a href=privacypolicy.html>privacy policy</a> - <a href=privacypolicy.html>terms and conditions</a> - <a href=privacypolicy.html>cookie policy</a>.</p>
+<button class=cookie-btn>Okay</button></div>
+<script>function blocco_mousedx(){return(false)}document.oncontextmenu=blocco_mousedx;</script>
+<script>document.onkeydown=function(a){if(event.keyCode==123){return false}if(a.ctrlKey&&a.shiftKey&&a.keyCode=="I".charCodeAt(0)){return false}if(a.ctrlKey&&a.shiftKey&&a.keyCode=="C".charCodeAt(0)){return false}if(a.ctrlKey&&a.shiftKey&&a.keyCode=="J".charCodeAt(0)){return false}if(a.ctrlKey&&a.keyCode=="U".charCodeAt(0)){return false}};</script>
+<script src=main.js></script>
+<script>$(".menu-icon").click(function(){$(this).toggleClass("active");$(".navigation-menu").toggleClass("active");$(".menu-icon i").toggleClass("fa-times")});</script></body></html>
