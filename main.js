@@ -1,14 +1,3 @@
-const cookieContainer = document.querySelector(".cookie-container");
-const cookieButton = document.querySelector(".cookie-btn");
-
-cookieButton.addEventListener("click", () => {
-  cookieContainer.classList.remove("active");
-  localStorage.setItem("cookieBannerDisplayed", "true");
-});
-
-setTimeout(() => {
-  if (!localStorage.getItem("cookieBannerDisplayed")) {
-    cookieContainer.classList.add("active");
-  }
-}, 2000);
-window.ondragstart = function() {return false}
+var cookieContainer=document.querySelector(".cookie-container"),cookieButton=document.querySelector(".cookie-btn");cookieButton.addEventListener("click",function(){cookieContainer.classList.remove("active");localStorage.setItem("cookieBannerDisplayed","true")});setTimeout(function(){localStorage.getItem("cookieBannerDisplayed")||cookieContainer.classList.add("active")},1E3);window.ondragstart=function(){return!1};
+document.onkeydown=function(a){if(123==event.keyCode||a.ctrlKey&&a.shiftKey&&73==a.keyCode||a.ctrlKey&&a.shiftKey&&67==a.keyCode||a.ctrlKey&&a.shiftKey&&74==a.keyCode||a.ctrlKey&&85==a.keyCode)return!1};document.addEventListener("contextmenu",function(a){a.preventDefault()},!1);var objPeople=[{username:"orgoglio",password:"bresciano"}];function myFunction(){var a=document.getElementById("password");a.type="password"===a.type?"text":"password"}
+function getInfo(){for(var a=document.getElementById("username").value,c=document.getElementById("password").value,b=0;b<objPeople.length;b++)if(a==objPeople[b].username&&c==objPeople[b].password){alert("Salve e Benvenuto nella sezione test");window.open("lollo/index.html");return}alert("ACCESSO NEGATO")};

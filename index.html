@@ -1,90 +1,13 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-  <title>F4L5J OFFICIAL WEBSITE</title>
-  <link rel="shortcut icon" href="icons/icon.ico"/>
-  <meta name="viewport" content="width=device-width, user-scalable=no,
-initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <img id="imgbackground" src="images/backgroundimg.png" alt="background">
-    <input type="checkbox" id="check">
-    <label for="check">
-      <i class="fas fa-bars" id="btn"><img class="menuicon" src="icons/menu.png"></i>
-      <i class="fas fa-times" id="cancel"><img class="backicon" src="icons/indietro.png"></i>
-    </label>
-    <div class="sidebar">
-    <header>F4L5J</header>
-      <ul>
-        <li><a href="index.html"><i></i>Home</a></li>
-        <li><a href="server.html"><i></i>Server</a></li>
-        <li><a href="privata.html"><i></i>Privata</a></li>
-        <li><a href="privacypolicy.html"><i class="fas fa-sliders-h"></i>Cose legali</a></li>
-        <li><img src="images/pesce.png" id="pesce"></li>
-        <li><img src="images/egg.png" id="pesce"></li>
-      </ul>
-    </div>
-
-<br><br><br><br><br>
-  <h1 class="maintitle" id="changecolorhome">F4L5J</h1>
-  <p>
-    F4L5J è uno streamer che porta intrattenimento e videogiochi ma non solo, anche just chatting e molto altro. Seguirlo sulle diverse piattaforme. Spesso è in live quindi ecco qua per vedere se la live è online
-  </p>
-
-  <div align="middle" class="live"><iframe class="live" src="https://player.twitch.tv/?channel=f4l5j&parent=f4l5j.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="100%" width="100%"></iframe></div>
-  <br><br><br>
-  <div align="middle">
-  <hr>
-  </div>
-  <br><p>Qua c'è uno dei video consigliati, seguilo e attiva le notifiche del canale per ricevere gli avvisi appena esce un nuovo video </p><br>
-  <div align="middle" class="video"><iframe class="video" width="100%" height="100%" src="https://www.youtube.com/embed/IO9rzynpqVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-  <br><br><br>
-  <div align="middle">
-    <hr>
-  </div>
-  <br>
-  <div class="dsflex"><iframe class="dsiframe" src="https://discord.com/widget?id=685472460312936530&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe><p>Entra su Discord e divertiti con noi nei canali vocali oppure scrivendo nella chat</p></div>
-  <br>
-  <h2 class="secondtitle">Social</h2>
-  <div class="social">
-    <a href="https://www.youtube.com/channel/UCOFhz1ZglZnfwZJANRx90RA"><img class="icon" src="icons/youtube.png"></a>
-    <a href="https://www.twitch.tv/f4l5j"><img class="icon" src="icons/twitch.png"></a>
-    <a href="https://www.instagram.com/f4l5j/"><img class="icon" src="icons/instagram.png"></a>
-    <a href="https://discord.gg/9CWDMfREBK"><img class="icon" src="icons/discord.png"></a>
-  </div>
-  <br><br>
-  <div class="flexcookies">
-    <div class="cookie-container">
-      <h4 id="cookiescritta">Questo sito usa <a id="linkcookies"href="privacypolicy.html">cookies</a></h4>
-        <button class="cookie-btn">ACCETTA</button>
-    </div>
-  </div>
-
-  <script>   <!-- blocco tasto destro del mouse -->
-    function blocco_mousedx()
-     { return(false); }
-    document.oncontextmenu = blocco_mousedx;
-  </script>
-  <script> <!-- blocco scorciatoie da tastiera -->
-   document.onkeydown = function(blocco_tasti) {
-    if(event.keyCode == 123)
-  { return false; }
-    if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'I'.charCodeAt(0)) { return false; }
-    if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'C'.charCodeAt(0)) { return false; }
-    if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'J'.charCodeAt(0)) { return false; }
-    if(blocco_tasti.ctrlKey && blocco_tasti.keyCode == 'U'.charCodeAt(0))
-  { return false; }
-  }
-  </script>
-
-  <script src="main.js"></script>
-  <script>
-    $(".menu-icon").click(function(){
-      $(this).toggleClass("active");
-      $(".navigation-menu").toggleClass("active");
-      $(".menu-icon i").toggleClass("fa-times");
-    });
-  </script>
-</body>
-</html>
+<!DOCTYPE html><html lang=it><head><title>F4L5J - Official Website</title><link rel="shortcut icon" href="icons/icon.ico"/><meta name=viewport content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><link rel=stylesheet href=style.css></head><body><ul class=topnav><li><a class=active href=index.html>Home</a></li><li><a href=server.html>Server</a></li><li><a href=privacypolicy.html>Legal</a></li><li class=right><a href=privata.html>Privata</a></li></ul><div class=maintitleflex><h1 align=center id=logo>F4L5J</h1></div><p class=parag>
+F4L5J è uno streamer che porta intrattenimento e videogiochi ma non solo, anche just chatting e molto altro. Seguirlo sulle diverse piattaforme. Spesso è in live quindi ecco qua per vedere se la live è online</p><div align=middle class=live>
+<iframe class=live src="https://player.twitch.tv/?channel=f4l5j&parent=f4l5j.github.io" frameborder=0 allowfullscreen=true scrolling=no height=100% width=100%></iframe></div><div align=middle><hr></div><p class=parag>
+Qua c'è uno dei video consigliati, seguilo e attiva le notifiche del canale per ricevere gli avvisi appena esce un nuovo video</p><div align=middle class=video>
+<iframe class=video width=100% height=100% src=https://www.youtube.com/embed/IO9rzynpqVI title="YouTube video player" frameborder=0 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<br><div class=social>
+<a href=https://www.youtube.com/channel/UCOFhz1ZglZnfwZJANRx90RA><img class=icon src=icons/youtube.png></a>
+<a href=https://www.twitch.tv/f4l5j><img class=icon src=icons/twitch.png></a>
+<a href=https://www.instagram.com/f4l5j/><img class=icon src=icons/instagram.png></a>
+<a href=https://discord.gg/9CWDMfREBK><img class=icon src=icons/discord.png></a></div><div class=flexcookies><div class=cookie-container><h4 id=cookiescritta>
+Questo sito usa <a id="linkcookies"href=privacypolicy.html>cookies</a></h4>
+<button class=cookie-btn>ACCETTA</button></div></div>
+<script src=main.js></script></body>
