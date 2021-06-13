@@ -1,18 +1,80 @@
-<!DOCTYPE html><html lang=it><head><title>Pirlo</title><link rel="shortcut icon" href="../icons/icon.ico"/><meta name=viewport content="width=device-width, user-scalable=no,
-initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><link rel=stylesheet href=../style.css></head><body>
-<input type=checkbox id=check>
-<label for=check>
-<i class="fas fa-bars" id=btn><img class=menuicon src=../icons/menu.png></i>
-<i class="fas fa-times" id=cancel><img class=menuicon src=../icons/indietro.png></i>
-</label><div class=sidebar>
-<header>F4L5J</header><ul><li><a href=../index.html><i class="fas fa-qrcode"></i>Home</a></li><li><a href=../news.html><i class="fas fa-link"></i>News</a></li><li><a href=../faq.html><i class="fas fa-stream"></i>FAQ</a></li><li><a href=../aperitivi.html><i class="fas fa-calendar-week"></i>Aperitivi</a></li><li><a href=../bug.html><i class="fas fa-calendar-week"></i>Bug Consigli</a></li><li><a href=../social.html><i class="far fa-question-circle"></i>Social</a></li><li><a href=../privacypolicy.html><i class="fas fa-sliders-h"></i>Cose legali</a></li></ul></div>
-<br><br><br><br><br><h1 class=maintitle>Pirlo</h1>
-<img src=images/pirlo.jpg class="imgggschedule"alt><p>Il Pirlo è un drink classico di brescia che è stato mensionato dal famossissimo giornale di New York nel 2017 e considerato il più cool del momento.<br>Il suo nome forse deriva dalla parola pirlo che in dialetto significa aver fatto una caduta non traumatica, così il liquore versato dovrebbe andare verso il basso perpoi tornare verso l'alto</p><p>Ingredienti</p><ul><li class=ingredient>Ghiaccio</li><li class=ingredient>Vino bianco fermo (circa ⅓ ma dev'essere un ingrediente principale)</li><li class=ingredient>Campari ⅓</li><li class=ingredient>Acqua gassata ⅓</li><li class=ingredient>Fetta d'arancia</li></ul><p>La sua gradazione alcolica è un po' varia, da 15° a 45° in base a che vino si usa</p><div class=cookie-container><p>
-Utilizziamo i cookie in questo sito Web per offrirti la migliore esperienza sul nostro
-sito. Per saperne di più, leggi la nostra
-<a href=../privacypolicy.html>privacy policy</a> - <a href=../privacypolicy.html>terms and conditions</a> - <a href=../privacypolicy.html>cookie policy</a>.</p>
-<button class=cookie-btn>Okay</button></div>
-<script>function blocco_mousedx(){return!1}document.oncontextmenu=blocco_mousedx;</script>
-<script>document.onkeydown=function(a){if(123==event.keyCode||a.ctrlKey&&a.shiftKey&&73==a.keyCode||a.ctrlKey&&a.shiftKey&&67==a.keyCode||a.ctrlKey&&a.shiftKey&&74==a.keyCode||a.ctrlKey&&85==a.keyCode)return!1};</script>
-<script src=../main.js></script>
-<script>$(".menu-icon").click(function(){$(this).toggleClass("active");$(".navigation-menu").toggleClass("active");$(".menu-icon i").toggleClass("fa-times")});</script></body></html>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <title>Pirlo</title>
+  <link rel="shortcut icon" href="../icons/icon.ico"/>
+  <meta name="viewport" content="width=device-width, user-scalable=no,
+initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <script src="../device.js"></script>
+</head>
+<body>
+  <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btn"><img class="menuicon" src="../icons/menu.png"></i>
+      <i class="fas fa-times" id="cancel"><img class="menuicon" src="../icons/indietro.png"></i>
+    </label>
+    <div class="sidebar">
+    <header>F4L5J</header>
+  <ul>
+<li><a href="../index.html"><i class="fas fa-qrcode"></i>Home</a></li>
+<li><a href="../news.html"><i class="fas fa-link"></i>News</a></li>
+<li><a href="../faq.html"><i class="fas fa-stream"></i>FAQ</a></li>
+<li><a href="../aperitivi.html"><i class="fas fa-calendar-week"></i>Aperitivi</a></li>
+<li><a href="../bug.html"><i class="fas fa-calendar-week"></i>Bug Consigli</a></li>
+<li><a onclick="devicechecker()"><i class="far fa-question-circle"></i>Social</a></li>
+<li><a href="../privacypolicy.html"><i class="fas fa-sliders-h"></i>Cose legali</a></li>
+</ul>
+</div>
+<br><br><br><br><br>
+  <h1 class="maintitle">Pirlo</h1>
+  <img src="images/pirlo.jpg" class="imgggschedule"alt="">
+  <p>Il Pirlo è un drink classico di brescia che è stato mensionato dal famossissimo giornale di New York nel 2017 e considerato il più cool del momento.<br>Il suo nome forse deriva dalla parola pirlo che in dialetto significa aver fatto una caduta non traumatica, così il liquore versato dovrebbe andare verso il basso per poi tornare verso l'alto</p>
+  <p>Ingredienti</p>
+  <ul>
+    <li class="ingredient">Ghiaccio</li>
+    <li class="ingredient">Vino bianco fermo (circa ⅓ ma dev'essere un ingrediente principale)</li>
+    <li class="ingredient">Campari ⅓</li>
+    <li class="ingredient">Acqua gassata ⅓</li>
+    <li class="ingredient">Fetta d'arancia</li>
+
+  </ul>
+  <p>La sua gradazione alcolica è un po' varia, da 15° a 45° in base a che vino si usa</p>
+
+  <div class="cookie-container">
+    <p>
+      Utilizziamo i cookie in questo sito Web per offrirti la migliore esperienza sul nostro
+       sito. Per saperne di più, leggi la nostra
+      <a href="../privacypolicy.html">privacy policy</a> - <a href="../privacypolicy.html">terms and conditions</a> - <a href="../privacypolicy.html">cookie policy</a>.
+    </p>
+
+    <button class="cookie-btn">Okay</button>
+  </div>
+
+  <script>   <!-- blocco tasto destro del mouse -->
+    function blocco_mousedx()
+     { return(false); }
+    document.oncontextmenu = blocco_mousedx;
+  </script>
+  <script> <!-- blocco scorciatoie da tastiera -->
+   document.onkeydown = function(blocco_tasti) {
+    if(event.keyCode == 123)
+  { return false; }
+    if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'I'.charCodeAt(0)) { return false; }
+    if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'C'.charCodeAt(0)) { return false; }
+    if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'J'.charCodeAt(0)) { return false; }
+    if(blocco_tasti.ctrlKey && blocco_tasti.keyCode == 'U'.charCodeAt(0))
+  { return false; }
+  }
+  </script>
+
+  <script src="../main.js"></script>
+  <script>
+    $(".menu-icon").click(function(){
+      $(this).toggleClass("active");
+      $(".navigation-menu").toggleClass("active");
+      $(".menu-icon i").toggleClass("fa-times");
+    });
+  </script>
+</body>
+</html>

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <title>F4L5J OFFICIAL WEBSITE</title>
+  <title>Social</title>
   <link rel="shortcut icon" href="icons/icon.ico"/>
   <meta name="viewport" content="width=device-width, user-scalable=no,
 initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="socialmobilestyle.css">
   <script src="device.js"></script>
 </head>
 <body>
@@ -27,58 +27,49 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 </ul>
 </div>
 <br><br><br><br><br>
-  <h1 id="homemaintitle">Benvenuti</h1>
-  <p>
-    Questo sito verrà continuamente aggiornato, continueremo ad aggiungere nuove funzioni.
-    Questo sito è stato creato per i ragazzi di Brescia. In questo sito si possono trovare notizie, documenti salvati nell'archivio dove si può andare a vederli.
-  </p>
-  <br>
-  <script>
-    function aperitivi()
-    {
-      window.location.href="aperitivi.html";
-    }
-    function news()
-    {
-      window.location.href="news.html";
-    }
-    function faq()
-    {
-      window.location.href="faq.html";
-    }
-    function podcast()
-    {
-      window.location.href="social.html";
-    }
-  </script>
-  <div id="homeflex">
-    <div  onclick="news()" style="cursor:pointer" class="utility">
-        <img class="homeicon" src="images/news.png" alt="Avatar">
-        <h2 class="icontext">News</h2>
-    </div>
-    <div  onclick="aperitivi()" style="cursor:pointer"  class="utility">
-        <img class="homeicon" src="images/aperitivi.png" alt="Avatar">
-        <h2 class="icontext">Aperitivi</h2>
-    </div>
-    <div  onclick="faq()" style="cursor:pointer" class="utility">
-        <img class="homeicon" src="images/faq.png" alt="Avatar">
-        <h2 class="icontext">Faq</h2>
-    </div>
-    <div  onclick="devicechecker()" style="cursor:pointer" class="utility">
-        <img class="homeicon" src="images/podcast.png" alt="Avatar">
-        <h2 class="icontext">Podcast</h2>
-    </div>
+  <h1 class="maintitle">Social</h1>
+  <p>Questo è il podcast di <strong>Trecentosessantagradi</strong> dove si parla di tutto ed è gestito interamente dagli studenti del Calini</p>
+  <div class="spotifyiframe" align="middle">
+    <iframe src="https://open.spotify.com/embed/show/39HL5bpgXTrzpoGMlgEPzt" width="90%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   </div>
-  <div align="middle"><video width="70%" controls autoplay="false" preload="none">
-    <source src="images/trailer.mp4" type="video/mp4">
-  </video><div><br>
+  <br>
+  <div align="middle"><hr width="80%"></div>
+  <div class="dsflex">
+    <img class="imgtwoitemflex" src="images/chat.jpg" alt="Avatar"  align="left">
+    <p>Divertiti con altri ragazzi e ragazze di Brescia e/o non nella chat generale parlando di tutto<br><br>
+      Metti un po di musica se ti va, quando sei nei canali vocali.<br>
+      Segui gli aggiornamenti di questo sito nelle patch notes</p>
+  </div>
+  <div align="middle"><hr width="80%"></div>
+  <div class="dsflex">
+    <img class="imgtwoitemflex" src="images/chill.jpg" alt="Avatar">
+    <p>Entra in un canale vocale e parla con chiunque<br><br>(I nomi sono solo estetici e possono cambaiare)</p>
+  </div>
+  <div align="middle"><hr width="80%"></div>
+  <div class="dsflex">
+    <img class="imgtwoitemflex" src="images/wiki.jpg" alt="Avatar">
+    <p>Hai in mente di cambiare attrezzature per la postazione? Vuoi scoprire qualcosa in più sulla tecnologia?<br><br>Ecco le guide sia sulla teoria sia prodotti consigliati. Ci sono anche dei kit già preimpostati</p>
+  </div>
+  <div align="middle"><hr width="80%"></div>
+  <div class="dsflex">
+    <img class="imgtwoitemflex" src="images/gaming.jpg" alt="Avatar">
+    <p>Stai cercando qualcuno per il tuo team o per una partita?entra in vocale o scrivi in generale e concordati con qualcuno</p>
+  </div>
+  <br><br>
+  <div align="center">
+    <iframe src="https://discord.com/widget?id=685472460312936530&theme=dark" id="dswidget" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+  </div>
+  <p>
+  Segui tutti gli aggiornamenti del sito, le <strong>patch note</strong> e le altre eventuali comunicazioni. Basta andare nella sezione "SITO" e trovate tutto
+  </p>
   <h2 class="secondtitle">Social</h2>
   <div class="social">
     <a href="https://www.instagram.com/f4l5j/"><img class="icon" src="icons/instagram.png"></a>
     <a href=""><img class="icon" src="icons/tiktok.png"></a>
     <a href="https://discord.gg/9CWDMfREBK"><img class="icon" src="icons/discord.png"></a>
     <a href=""><img class="icon" src="icons/spotify.png"></a>
-  </div><br><br>
+  </div>
+  <br>
   <div class="flexcookies">
       <div class="cookie-container">
         <h4 id="cookiescritta">
@@ -87,6 +78,7 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
           <button class="cookie-btn">ACCETTA</button>
       </div>
   </div>
+
   <script>   <!-- blocco tasto destro del mouse -->
     function blocco_mousedx()
      { return(false); }

@@ -12,8 +12,36 @@ body {
 ::-webkit-scrollbar {
 display: none;
 }
-
-/*slidebar sx*/
+hr {
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  margin: 25px 5px 50px 5px;
+}
+.dsflex{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8%;
+  margin-left: 8%;
+}
+.imgtwoitemflex{
+  width:300px;
+  display: block;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 23px;
+  box-shadow: 0px 0px 68px -2px rgba(114,137,218,1);
+}
+#dswidget{
+  border-radius: 20px;
+}
+.alcolicon{
+  position: absolute;
+  right:35px;
+  top: 92px;
+  width: 45px;
+}
 .sidebar {
   z-index: 7;
   position: fixed;
@@ -102,140 +130,9 @@ section{
   height: 100vh;
   transition: all .5s;
 }
-.menuicon {
-  margin: -3px -3px -6px -3px;
-  height: 38px;
-}
-
-
-/*-----------*/
-
-
-.flexcookies{
-  display: flex;
-  align-items:center;
-  justify-content: center;
-}
-.cookie-container {
-  position: fixed;
-  display: flex;
-  flex-flow: nowrap row;
-  justify-content: space-around;
-  align-items:center;
-  font-family: 'Montserrat-Light';
-  bottom: -100%;
-  width: 350px;
-  border-top-right-radius: 25px;
-  border-top-left-radius: 25px;
-  background-color: rgba(0,0,0,.87);
-  color: #f5f6fa;
-  padding: 14px 14px 14px 14px;
-  transition: 400ms;
-}
-.cookie-container.active {
-  position: fixed;
-  display: flex;
-  flex-flow: nowrap row;
-  justify-content: space-around;
-  align-items:center;
-  font-family: 'Montserrat-Light';
-  bottom: 0;
-  width: 350px;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  background-color: #262626;
-  color: #f5f6fa;
-  padding: 14px 14px 14px 14px;
-}
-#cookiescritta{
-  font-family: 'Montserrat-Light';
-  font-size: 17px;
-}
-.cookie-container a {
-  color: #f5f6fa;
-  font-family: 'Montserrat-Medium';
-  text-decoration: underline;
-  text-decoration-color: white;
-  font-size: 17px;
-}
-.cookie-btn {
-  background-color: #262626;
-  border: 0;
-  color: #2ad37b;
-  padding: 10px 15px;
-  font-size: 20px;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: .3s;
-}
-.cookie-btn:hover{
-  background-color: #212121;
-  color: white;
-}
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat-Medium';
-  text-decoration: none;
-  list-style: none;
-
-}
-p {
-  font-family: 'Montserrat-Light';
-  color: #575d69;
-  text-align: justify;
-  max-width: 80%;
-  margin: auto;
-  font-size: 18px;
-  line-height: 1.4em;
-  padding: 30px 0;
-}
-a {
-   text-decoration: none;
-  color: #577eff;
- }
- hr {
-  border: 1px solid lightgray;
-  border-radius: 30px;
-  margin: 25px 5px 25px 5px;
-}
-
-
-
-/*social*/
-
-.dsflex{
-  display: flex;
-  flex-flow: row;
-  align-items: center;
-  justify-content: space-between;
-  margin-right: 12%;
-  margin-left: 12%;
-}
-.imgtwoitemflex{
-  width:340px;
-  display: block;
-  margin-right: 20px;
-  margin-left: 20px;
-  border-radius: 20px;
-}
-#dswidget{
-  border-radius: 20px;
-}
 .spotifyiframe{
   margin: 10px 10px 10px 10px;
 }
-
-
-
-.alcolicon{
-  position: absolute;
-  right:35px;
-  top: 92px;
-  width: 45px;
-}
-
-/*home*/
 #homeflex{
   display: flex;
   flex-flow: row wrap;
@@ -246,7 +143,7 @@ a {
   align-items: center;
   justify-content: space-evenly;
   flex-flow: column wrap;
-  background-color: #f5ebff;
+  background-color: #e3e3e3;
   border-radius: 18px;
   padding: 8px 8px 5px 8px;
   margin: 0px 21.5px 41px 21.5px;
@@ -260,11 +157,6 @@ a {
   font-size: 18px;
   text-align: center;
 }
-
-
-/*-----------*/
-
-/*aperitivi*/
 .alcol-container {
   position: fixed;
   display: flex;
@@ -281,6 +173,7 @@ a {
   padding: 13px 20px 13px 20px;
   transition: 400ms;
 }
+
 .alcol-container.active {
   position: fixed;
   display: flex;
@@ -329,22 +222,24 @@ a {
   margin-bottom: 4px;
   border-radius: 10px;
 }
+
 .card:hover {
   box-shadow: 0 0px 4px 0 rgba(0,0,0,0.2);
 }
+
 .imggg {
   width:100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 #alcolimage{
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 400px;
-  margin-top: 30px;
-  margin-bottom: 15px;
-  transition: .6s;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    transition: .6s;
 }
 .imgggschedule{
   display:block;
@@ -380,6 +275,11 @@ a {
   margin-bottom: 6px;
   height: 138px;
 }
+
+h2 {
+  margin: 0px 0px 0px 0px;
+}
+
 .itemdetails {
   font-family: 'Montserrat-Medium';
   color: #575d69;
@@ -388,6 +288,7 @@ a {
   font-size: 14px;
   text-align: left;
 }
+
 .scopri {
   border: none;
   border-radius: 50px;
@@ -403,10 +304,26 @@ a {
   font-size: 18px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat-Medium';
+  text-decoration: none;
+  list-style: none;
 
-/*-----------*/
+}
 
-/*drink*/
+p {
+  font-family: 'Montserrat-Light';
+  color: #575d69;
+  text-align: justify;
+  max-width: 80%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.4em;
+  padding: 30px 0;
+}
+
 .ingredient {
   font-family: 'Montserrat-Light';
   max-width: 70%;
@@ -415,40 +332,73 @@ a {
   line-height: 2.5em;
   list-style-type: square;
 }
-
-
-/*-----------*/
-
-/*social basso*/
-.social {
+.flexcookies{
   display: flex;
-  flex-flow: row wrap;
+  align-items:center;
   justify-content: center;
-  margin: 10px 0px 10px 0px;
+}
+.cookie-container {
+  position: fixed;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-around;
+  align-items:center;
+  font-family: 'Montserrat-Light';
+  bottom: -100%;
+  width: 350px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  background-color: rgba(0,0,0,.87);
+  color: #f5f6fa;
+  padding: 14px 14px 14px 14px;
+  transition: 400ms;
 }
 
+.cookie-container.active {
+  position: fixed;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-around;
+  align-items:center;
+  font-family: 'Montserrat-Light';
+  bottom: 0;
+  width: 350px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: #262626;
+  color: #f5f6fa;
+  padding: 14px 14px 14px 14px;
+}
+#cookiescritta{
+  font-family: 'Montserrat-Light';
+  font-size: 17px;
+}
 
+.cookie-container a {
+  color: #f5f6fa;
+  font-family: 'Montserrat-Medium';
+  text-decoration: underline;
+  text-decoration-color: white;
+  font-size: 17px;
+}
 
-/*-----------*/
-
-
-/*varie*/
+.cookie-btn {
+  background-color: #262626;
+  border: 0;
+  color: #2ad37b;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .3s;
+}
+.cookie-btn:hover{
+  background-color: #212121;
+  color: white;
+}
 .maintitle {
   color: #6056ef;
   text-align: center;
-}
-#homemaintitle{
-  color: #6056ef;
-  text-align: center;
-  background-color: #e8e4d8;
-  border: 1px solid lightgray;
-  border-radius: 5px;
-  font-size: 42px;
-  width: 272px;
-  height: 60px;
-  margin:auto;
-  display: grid;
-  place-items: center;
 }
 .secondtitle {
   color: #6056ef;
@@ -462,11 +412,16 @@ a {
   text-align: left;
 }
 
-
-
-
-
-
+.social {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 10px 0px 10px 0px;
+}
+.menuicon {
+  margin: -3px -3px -6px -3px;
+  height: 38px;
+}
 .icon {
   width: 31px;
   padding: 0px 7px 0px 7px;
@@ -476,9 +431,7 @@ a {
   margin-top: 10px;
   width: 250px;
 }
-h2 {
-  margin: 0px 0px 0px 0px;
-}
+
 
 @font-face {
    font-family: 'Montserrat-Medium';
@@ -488,3 +441,8 @@ h2 {
    font-family: 'Montserrat-Light';
    src: url('fonts/Montserrat/Montserrat-Light.ttf') format('truetype');;
 }
+
+a {
+   text-decoration: none;
+  color: #577eff;
+ }
