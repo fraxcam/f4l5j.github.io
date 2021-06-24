@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <title>Black Russian</title>
+  <link rel="shortcut icon" href="../icons/icon.ico"/>
+  <meta name="viewport" content="width=device-width, user-scalable=no,
+initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btn"><img class="menuicon" src="../icons/menu.png"></i>
+      <i class="fas fa-times" id="cancel"><img class="menuicon" src="../icons/indietro.png"></i>
+    </label>
+    <div class="sidebar">
+    <header>F4L5J</header>
+  <ul>
+<li><a href="../index.html"><i></i>Home</a></li>
+<li><a href="../aperitivi.html"><i></i>Aperitivi</a></li>
+<li><a href="../privacypolicy.html"><i></i>Cose legali</a></li>
+</ul>
+</div>
+<br><br><br><br><br>
+  <h1 class="maintitle">Black Russian</h1>
+  <img src="images/blackrussian.jpg" class="imgggschedule"alt="drink">
+  <br>
+  <div class="rapidinfo">
+    <div class="flexitemdetails">
+      <h3 class="itemdetails">Gusto</h3><h3 class="itemdetails">dolce e forte</h3>
+    </div>
+    <div class="flexitemdetails">
+      <h3 class="itemdetails">Grado alcolico</h3><h3 class="itemdetails">27</h3>
+    </div>
+  </div>
+  <p>Black Russian è un cocktail alcolico riconosciuto dall'IBA e inventato da Gustave Tops in onore dell'arrivo dell'ambasciatrice americana Pearl Mesta. Esiste anche una variante White Russian con la panna</p>
+  <p>Ingredienti</p>
+  <ul>
+    <li class="ingredient">Vodka 5 cl</li>
+    <li class="ingredient">Liquore al caffè 2 cl</li>
+  </ul>
+  <p>La sua gradazione alcolica è di 27°</p>
+
+  <div class="flexcookies">
+    <div class="alcol-container">
+      <h4 id="alcolscritta">
+        Ricordiamo che in italia è vietata la vendita di alcolici ai minori di 18 anni.<br><br>È sconsigliato assumere alcol fino all'età di 18 anni perché l'etanolo interferisce con lo sviluppo cerebrale.
+      </h4>
+        <button class="alcol-btn">HO CAPITO</button>
+    </div>
+</div>
+
+<div class="flexcookies">
+    <div class="cookie-container">
+      <h4 id="cookiescritta">
+        Questo sito usa <a id="linkcookies"href="privacypolicy.html">cookies</a>
+      </h4>
+        <button class="cookie-btn">ACCETTA</button>
+    </div>
+</div>
+
+  <script>
+    function blocco_mousedx()
+     { return(false); }
+    document.oncontextmenu = blocco_mousedx;
+  </script>
+  <script>
+   document.onkeydown = function(blocco_tasti) {
+    if(event.keyCode == 123)
+  { return false; }
+    if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'I'.charCodeAt(0)) { return false; }
+    if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'C'.charCodeAt(0)) { return false; }
+    if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'J'.charCodeAt(0)) { return false; }
+    if(blocco_tasti.ctrlKey && blocco_tasti.keyCode == 'U'.charCodeAt(0))
+  { return false; }
+  }
+  </script>
+  <script src="../alcoldisclaimer.js"></script>
+  <script src="../main.js"></script>
+  <script>
+    $(".menu-icon").click(function(){
+      $(this).toggleClass("active");
+      $(".navigation-menu").toggleClass("active");
+      $(".menu-icon i").toggleClass("fa-times");
+    });
+  </script>
+</body>
+</html>
