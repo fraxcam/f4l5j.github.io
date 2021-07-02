@@ -145,13 +145,6 @@ ul.topnav li.right {
     text-align: justify;
     color: white;
 }
-.marchioregistrato{
-    font-family:'Montserrat-Light';
-    font-size: 12px;
-    margin: 30px;
-    text-align: justify;
-    color: white;
-}
 
 /*animazione logo*/
 #logo{
@@ -162,8 +155,8 @@ ul.topnav li.right {
     transition: 200ms;
 }
 #logo:hover{
-    text-shadow: 0px 0px 89px #c4ff00;
-    animation: logo 2s ease 0s 1 normal forwards;
+    text-shadow: 0px 0px 50px #ff7300;
+    animation: logo 5s ease 0s 1 normal forwards;
 }
 @keyframes logo {
     0% {

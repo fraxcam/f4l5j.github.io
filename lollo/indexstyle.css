@@ -107,6 +107,219 @@ section{
   height: 38px;
 }
 
+/*slide1*/
+
+
+.flexslide{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.slide1 {
+  position: fixed;
+  display: flex;
+  flex-flow: wrap column;
+  align-items:center;
+  font-family: 'Montserrat-Light';
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: #262626;
+  opacity:0;
+  z-index: 2147483647;
+  transition: 150ms;
+}
+.slide1.active {
+  position: fixed;
+  display: flex;
+  flex-flow: wrap column;
+  align-items:center;
+  font-family: 'Montserrat-Light';
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: #262626;
+  z-index:2147483647;
+  opacity:1;
+}
+.slide1-btn {
+  position: absolute;
+  bottom: 130px;
+  background-color:#5ad67b;
+	border-radius:30px;
+  border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-size:18px;
+	padding:15px 27px;
+	text-decoration:none;
+  cursor: pointer;
+  font-family: 'Montserrat-Light';
+}
+.slidescritta{
+  font-family: 'Montserrat-Light';
+  text-align: center;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-left:40px;
+  margin-right:40px;
+}
+.slideimg{
+  width: 425px;
+  margin: 70px 0px 70px 0px;
+}
+.slide1img{
+  width: 425px;
+  margin: 90px 0px 70px 0px;
+}
+
+
+
+
+/*slide2*/
+
+
+
+
+
+.flexslide{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.slide2 {
+  position: fixed;
+  display: flex;
+  flex-flow: wrap column;
+  align-items:center;
+  font-family: 'Montserrat-Light';
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: #262626;
+  opacity:0;
+  z-index: 2147483646;
+  transition: 150ms;
+}
+.slide2.active {
+  position: fixed;
+  display: flex;
+  flex-flow: wrap column;
+  align-items:center;
+  font-family: 'Montserrat-Light';
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: #262626;
+  z-index: 2147483646;
+  opacity:1;
+}
+.slide2-btn {
+  position: absolute;
+  bottom: 130px;
+  background-color:#5ad67b;
+	border-radius:30px;
+  border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:18px;
+	padding:15px 27px;
+	text-decoration:none;
+  cursor: pointer;
+  font-family: 'Montserrat-Light';
+}
+.slidescritta{
+  font-family: 'Montserrat-Light';
+  text-align: center;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-left:40px;
+  margin-right:40px;
+}
+.slideimg{
+  width: 425px;
+  margin: 70px 0px 70px 0px;
+}
+
+
+
+
+/*slide3*/
+
+
+
+.flexslide{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.slide3 {
+  position: fixed;
+  display: flex;
+  flex-flow: wrap column;
+  align-items:center;
+  font-family: 'Montserrat-Light';
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: #262626;
+  opacity:0;
+  z-index: 2147483645;
+  transition: 150ms;
+}
+.slide3.active {
+  position: fixed;
+  display: flex;
+  flex-flow: wrap column;
+  align-items:center;
+  font-family: 'Montserrat-Light';
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: #262626;
+  z-index: 2147483645;
+  opacity:1;
+}
+.slide3-btn {
+  position: absolute;
+  bottom: 130px;
+  background-color:#5ad67b;
+	border-radius:30px;
+  border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:18px;
+	padding:15px 27px;
+	text-decoration:none;
+  cursor: pointer;
+  font-family: 'Montserrat-Light';
+}
+.slidescritta{
+  font-family: 'Montserrat-Light';
+  text-align: center;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-left:40px;
+  margin-right:40px;
+}
+.slideimg{
+  width: 425px;
+  margin: 70px 0px 70px 0px;
+}
+
+
+
 
 /*-----------*/
 
@@ -280,7 +493,6 @@ hr {
 }
 .homeicon{
   height: 50px;
-  filter: saturate(0.5);
 }
 .icontext{
   font-size: 18px;
@@ -476,74 +688,81 @@ hr {
 #bg1{
   position: absolute;
   z-index: -9999999999;
-  top: -200px;
-  left: 100px;
+  left: -200px;
+  top: 30%;
   opacity: 0.05;
   border-radius:35% 65% 28% 72% / 56% 28% 72% 44% ;
-  animation: myAnim1 40s ease 0s infinite normal forwards;
+  animation: myAnim1 20s ease 0s infinite normal forwards;
 }
 @keyframes myAnim1 {
   0% {
     transform: translateX(0) translateY(0);
+    opacity: 0.05;
   }
 
   100% {
-    transform: translateX(300px) translateY(300px);
+    transform: translateX(500px) translateY(500px);
+    opacity: 0;
   }
 }
 #bg4{
   position: absolute;
   z-index: -9999999999;
-  bottom: 200px;
-  right: -200px;
+  top: -200px;
+  right: 20%;
   opacity: 0.05;
   transform: rotate(90deg);
   border-radius:20% 80% 15% 85% / 30% 28% 72% 70% ;
-  animation: myAnim4 20s ease 0s infinite normal forwards;
+  animation: myAnim4 25s ease 0s infinite normal forwards;
 }
 @keyframes myAnim4 {
   0% {
     transform: translateX(0) translateY(0);
+    opacity: 0.05;
   }
 
   100% {
-    transform: translateX(-500px) translateY(90px);
+    transform: translateX(-100px) translateY(800px);
+    opacity: 0;
   }
 }
 #bg3{
   position: absolute;
   z-index: -9999999999;
   bottom: -200px;
-  left:100px;
+  right:15%;
   opacity: 0.05;
   border-radius:78% 22% 68% 32% / 50% 28% 72% 50%;
-  animation: myAnim3 40s ease 0s infinite normal forwards;
+  animation: myAnim3 20s ease 0s infinite normal forwards;
 }
 @keyframes myAnim3 {
   0% {
     transform: translateX(0) translateY(0);
+    opacity: 0.05;
   }
 
   100% {
-    transform: translateX(300px) translateY(-500px);
+    transform: translateX(-200px) translateY(-800px);
+    opacity: 0;
   }
 }
 #bg2{
   position: absolute;
   z-index: -9999999999;
-  left: -200px;
-  top:200px;
+  right: -200px;
+  top: 40%;
   opacity: 0.05;
   border-radius:65% 35% 9% 91% / 67% 15% 85% 33% ;
-  animation: myAnim2 55s ease 0s infinite normal forwards;
+  animation: myAnim2 50s ease 0s infinite normal forwards;
 }
 @keyframes myAnim2 {
   0% {
     transform: translateX(0) translateY(0);
+    opacity: 0.05;
   }
-
   100% {
-    transform: translateX(1000px) translateY(300px);
+    transform: translateX(-800px) translateY(-300px);
+    opacity: 0;
   }
 }
 

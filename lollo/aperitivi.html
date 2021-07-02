@@ -21,6 +21,39 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 <li><a href="privacypolicy.html"><i></i>Cose legali</a></li>
 </ul>
 </div>
+<!--slide1-->
+<div class="flexslide">
+  <div class="slide1">
+    <img src="images/slide1.png" class="slide1img">
+    <h4 class="slidescritta">
+      Qui puoi trovare i drink che ti piacciono di più e scoprirne qualcosa oppure esplorarne alcuni nuovi. Ne verranno aggiunti altri in futuro
+    </h4>
+    <button class="slide1-btn">Avanti</button>
+  </div>
+</div>
+<!--slide2-->
+<div class="flexslide">
+  <div class="slide2">
+    <img src="images/slide2.png" class="slideimg">
+    <h4 class="slidescritta">
+      Accetta i cookies per far scomparire il banner. Servono solo a toglierci una parte di responsabilità ( ^ ‿ ^ )
+    </h4>
+    <button class="slide2-btn">Avanti</button>
+  </div>
+</div>
+<!--slide3-->
+<div class="flexslide">
+  <div class="slide3">
+    <img src="images/slide3.png" class="slideimg">
+    <h4 class="slidescritta">
+      Ricorda che non abbiamo server di raccolta o database quindi non possiamo raccogliere i tuoi dati personali
+    </h4>
+    <h4 class="slidescritta">
+      Se te li chiediamo servono solo a certe funzioni e non sono salvati da noi
+    </h4>
+    <button class="slide3-btn">Avanti</button>
+  </div>
+</div>
 <br><br><br><br><br>
   <h1 class="maintitle">Cocktails</h1><a href="drinks/alcol.html"><img class="alcolicon" src="icons/alcol.jpg" alt="Avatar"></a>
 <br><br>
@@ -28,8 +61,8 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
   <img class="scrollingrediente" src="drinks/images/rum.jpg" alt="ingrediente">
   <img class="scrollingrediente" src="drinks/images/gin.jpg" alt="ingrediente">
   <img class="scrollingrediente" src="drinks/images/chinino.jpg" alt="ingrediente">
-  <img class="scrollingrediente" src="drinks/images/vodka.jpg" alt="ingrediente">
-  <img class="scrollingrediente" src="drinks/images/vuoto.jpg" alt="ingrediente">
+  <a href="drinks/ingredienti/vodka.html"><img class="scrollingrediente" src="drinks/images/vodka.jpg" alt="ingrediente"></a>
+  <a href="drinks/ingredienti/acquatonica.html"><img class="scrollingrediente" src="drinks/images/acquatonica.jpg" alt="ingrediente"></a>
   <img class="scrollingrediente" src="drinks/images/vuoto.jpg" alt="ingrediente">
   <img class="scrollingrediente" src="drinks/images/vuoto.jpg" alt="ingrediente">
   <img class="scrollingrediente" src="drinks/images/vuoto.jpg" alt="ingrediente">
@@ -49,7 +82,7 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 </div>
   <div class="conteinerdrinks">
     <div class="card" onclick="location.href='drinks/allshookup.html'">
-        <img class="imggg" src="drinks/images/vuoto.jpg" alt="Avatar">
+        <img class="imggg" src="drinks/images/allshookup.jpg" alt="Avatar">
       <div style="font-size:15px;" class="container">
         <h2><b>All Shook Up</b></h2>
         <!--
@@ -70,7 +103,7 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
         </div>
       </div>
       <div class="card" onclick="location.href='drinks/blackrussian.html'">
-        	<img class="imggg" src="drinks/images/vuoto.jpg" alt="Avatar">
+        	<img class="imggg" src="drinks/images/blackrussian.jpg" alt="Avatar">
           <img class="icondisclamer" src="icons/18+rossonero.png">
         <div style="font-size:15px;" class="container">
           <h2><b>Black Russian</b></h2>
@@ -112,6 +145,17 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
           -->
         </div>
       </div>
+      <div class="card" onclick="location.href='drinks/gintonic.html'">
+        <img class="imggg" src="drinks/images/gintonic.jpg" alt="Avatar">
+        <img class="icondisclamer" src="icons/18+rossonero.png">
+      <div style="font-size:15px;" class="container">
+        <h2><b>Gin tonic</b></h2>
+        <!--
+        <h3 class="itemdetails">Grado alcolico&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22</h3>
+        <h3 class="itemdetails">Gusto&nbsp;&nbsp;frutta-acido</h3>
+        -->
+      </div>
+    </div>
       <div class="card" onclick="location.href='drinks/martini.html'">
         	<img class="imggg" src="drinks/images/martini.jpg" alt="Avatar">
           <img class="icondisclamer" src="icons/18+rossonero.png">
@@ -145,6 +189,17 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
           -->
         </div>
       </div>
+      <div class="card" onclick="location.href='drinks/negronisbagliato.html'">
+        <img class="imggg" src="drinks/images/negronisbagliato.jpg" alt="Avatar">
+        <img class="icondisclamer" src="icons/18+rossonero.png">
+      <div class="container">
+        <h2 style="font-size:18px;"><b>Negroni Sbagliato</b></h2>
+        <!--
+        <h3 class="itemdetails">Grado alcolico&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28</h3>
+        <h3 class="itemdetails">Gusto&nbsp;&nbsp;dolce amaro</h3>
+        -->
+      </div>
+    </div>
       <div class="card" onclick="location.href='drinks/pirlo.html'">
         	<img class="imggg" src="drinks/images/pirlo.jpg" alt="Avatar">
           <img class="icondisclamer" src="icons/18+rossonero.png">
@@ -157,7 +212,7 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
         </div>
       </div>
       <div class="card" onclick="location.href='drinks/redsunset.html'">
-        	<img class="imggg" src="drinks/images/vuoto.jpg" alt="Avatar">
+        	<img class="imggg" src="drinks/images/redsunset.jpg" alt="Avatar">
         <div class="container">
           <h2><b>Red sunset</b></h2>
           <!--
@@ -167,7 +222,7 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
         </div>
       </div>
       <div class="card" onclick="location.href='drinks/roselemonspritzer.html'">
-        	<img class="imggg" src="drinks/images/vuoto.jpg" alt="Avatar">
+        	<img class="imggg" src="drinks/images/roselemonspritzer.jpg" alt="Avatar">
         <div style="font-size:11px;" class="container">
           <h2><b>Rose Lemon Spritzer</b></h2>
           <!--
@@ -177,7 +232,7 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
         </div>
       </div>
       <div class="card" onclick="location.href='drinks/shirleytemple.html'">
-        <img class="imggg" src="drinks/images/vuoto.jpg" alt="Avatar">
+        <img class="imggg" src="drinks/images/shirleytemple.jpg" alt="Avatar">
       <div style="font-size:15px;" class="container">
         <h2><b>Shirley Temple</b></h2>
         <!--
@@ -187,7 +242,7 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
       </div>
     </div>
       <div class="card" onclick="location.href='drinks/switchel.html'">
-        	<img class="imggg" src="drinks/images/vuoto.jpg" alt="Avatar">
+        	<img class="imggg" src="drinks/images/switchel.jpg" alt="Avatar">
         <div class="container">
           <h2><b>Switchel</b></h2>
           <!--
@@ -197,7 +252,7 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
         </div>
       </div>
       <div class="card" onclick="location.href='drinks/virgincolada.html'">
-        	<img class="imggg" src="drinks/images/vuoto.jpg" alt="Avatar">
+        	<img class="imggg" src="drinks/images/virgincolada.jpg" alt="Avatar">
         <div style="font-size:15px;" class="container">
           <h2><b>Virgin Colada</b></h2>
           <!--
@@ -207,7 +262,7 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
         </div>
       </div>
       <div class="card" onclick="location.href='drinks/virginroyalhawaiian.html'">
-        	<img class="imggg" src="drinks/images/vuoto.jpg" alt="Avatar">
+        	<img class="imggg" src="drinks/images/virginroyalhawaiian.jpg" alt="Avatar">
         <div style="font-size:10px;" class="container">
           <h2><b>Virgin Royal Hawaiian</b></h2>
           <!--
@@ -252,6 +307,9 @@ initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
   { return false; }
   }
   </script>
+  <script src="slide1.js"></script>
+  <script src="slide2.js"></script>
+  <script src="slide3.js"></script>
   <script src="alcoldisclaimer.js"></script>
   <script src="main.js"></script>
   <script>

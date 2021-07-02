@@ -10,7 +10,7 @@ body {
                                   supported by Chrome, Opera and Firefox */
 }
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 7px;
 }
 
 /* Track */
@@ -79,7 +79,6 @@ label #btn,label #cancel{
 label #btn{
   left: 40px;
   top: 25px;
-  background-color: #f7fdff;
   border-radius: 15px;
   font-size: 35px;
   color: white;
@@ -115,6 +114,220 @@ section{
   height: 100vh;
   transition: all .5s;
 }
+
+/*slide1*/
+
+
+.flexslide{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.slide1 {
+  position: fixed;
+  display: flex;
+  flex-flow: wrap column;
+  align-items:center;
+  font-family: 'Montserrat-Light';
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: #262626;
+  opacity:0;
+  z-index: 2147483647;
+  transition: 150ms;
+}
+.slide1.active {
+  position: fixed;
+  display: flex;
+  flex-flow: wrap column;
+  align-items:center;
+  font-family: 'Montserrat-Light';
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: #262626;
+  z-index:2147483647;
+  opacity:1;
+}
+.slide1-btn {
+  position: absolute;
+  bottom: 130px;
+  background-color:#5ad67b;
+	border-radius:30px;
+  border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:18px;
+	padding:15px 27px;
+	text-decoration:none;
+  cursor: pointer;
+  font-family: 'Montserrat-Light';
+}
+.slidescritta{
+  font-family: 'Montserrat-Light';
+  text-align: center;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-left:40px;
+  margin-right:40px;
+}
+.slideimg{
+  width: 425px;
+  margin: 70px 0px 70px 0px;
+}
+.slide1img{
+  width: 425px;
+  margin: 90px 0px 70px 0px;
+}
+
+
+
+
+/*slide2*/
+
+
+
+
+
+.flexslide{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.slide2 {
+  position: fixed;
+  display: flex;
+  flex-flow: wrap column;
+  align-items:center;
+  font-family: 'Montserrat-Light';
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: #262626;
+  opacity:0;
+  z-index: 2147483646;
+  transition: 150ms;
+}
+.slide2.active {
+  position: fixed;
+  display: flex;
+  flex-flow: wrap column;
+  align-items:center;
+  font-family: 'Montserrat-Light';
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: #262626;
+  z-index: 2147483646;
+  opacity:1;
+}
+.slide2-btn {
+  position: absolute;
+  bottom: 130px;
+  background-color:#5ad67b;
+	border-radius:30px;
+  border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:18px;
+	padding:15px 27px;
+	text-decoration:none;
+  cursor: pointer;
+  font-family: 'Montserrat-Light';
+}
+.slidescritta{
+  font-family: 'Montserrat-Light';
+  text-align: center;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-left:40px;
+  margin-right:40px;
+}
+.slideimg{
+  width: 425px;
+  margin: 70px 0px 70px 0px;
+}
+
+
+
+
+/*slide3*/
+
+
+
+.flexslide{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.slide3 {
+  position: fixed;
+  display: flex;
+  flex-flow: wrap column;
+  align-items:center;
+  font-family: 'Montserrat-Light';
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: #262626;
+  opacity:0;
+  z-index: 2147483645;
+  transition: 150ms;
+}
+.slide3.active {
+  position: fixed;
+  display: flex;
+  flex-flow: wrap column;
+  align-items:center;
+  font-family: 'Montserrat-Light';
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: #262626;
+  z-index: 2147483645;
+  opacity:1;
+}
+.slide3-btn {
+  position: absolute;
+  bottom: 130px;
+  background-color:#5ad67b;
+	border-radius:30px;
+  border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:18px;
+	padding:15px 27px;
+	text-decoration:none;
+  cursor: pointer;
+  font-family: 'Montserrat-Light';
+}
+.slidescritta{
+  font-family: 'Montserrat-Light';
+  text-align: center;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-left:40px;
+  margin-right:40px;
+}
+.slideimg{
+  width: 425px;
+  margin: 70px 0px 70px 0px;
+}
+
+
 
 .alcol-container {
   position: fixed;

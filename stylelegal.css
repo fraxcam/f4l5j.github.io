@@ -62,6 +62,9 @@ ul.topnav li a.active {
 ul.topnav li.right a.active {
     background-color: #33b864;
 }
+ul.topnav li.right a:hover {
+    background-color: #33b864;
+}
 ul.topnav li.right {
     float: right;
     font-family:'Montserrat-Light';
