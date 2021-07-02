@@ -10,6 +10,6 @@ setTimeout(() => {
   if (!localStorage.getItem("cookieBannerDisplayed")) {
     cookieContainer.classList.add("active");
   }
-}, 2000);
+}, 0);
 
 window.ondragstart = function() {return false}
