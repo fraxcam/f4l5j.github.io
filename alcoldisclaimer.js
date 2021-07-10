@@ -1,0 +1,1 @@
+var alcolContainer=document.querySelector(".alcol-container"),alcolButton=document.querySelector(".alcol-btn");alcolButton.addEventListener("click",function(){alcolContainer.classList.remove("active");localStorage.setItem("alcolBannerDisplayed","true")});setTimeout(function(){localStorage.getItem("alcolBannerDisplayed")||alcolContainer.classList.add("active")},2E3);

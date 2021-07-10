@@ -1,0 +1,1 @@
+var slide2=document.querySelector(".slide2"),slide2Button=document.querySelector(".slide2-btn");slide2Button.addEventListener("click",function(){slide2.classList.remove("active");localStorage.setItem("slide2BannerDisplayed","true")});setTimeout(function(){localStorage.getItem("slide2BannerDisplayed")||slide2.classList.add("active")},300);
