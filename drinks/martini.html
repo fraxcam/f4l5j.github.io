@@ -1,65 +1,88 @@
 <!DOCTYPE html>
-<html lang=it>
+<html lang="it">
 <head>
-<title>Martini</title>
-<link rel="shortcut icon" href="../icons/icon.ico"/>
-<meta name=viewport content="width=device-width, user-scalable=no,
+  <title>Martini</title>
+  <link rel="shortcut icon" href="../icons/icon.ico"/>
+  <meta name="viewport" content="width=device-width, user-scalable=no,
 initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-<link rel=stylesheet href=../style.css>
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<input type=checkbox id=check>
-<label for=check>
-<i class="fas fa-bars" id=btn><img class=menuicon src=../icons/menu.png></i>
-<i class="fas fa-times" id=cancel><img class=menuicon src=../icons/indietro.png></i>
-</label>
-<div class=sidebar>
-<header>F4L5J</header>
-<ul>
-<li><a href=../index.html><i></i>Home</a></li>
-<li><a href=../aperitivi.html><i></i>Aperitivi</a></li>
-<li><a href=../privacypolicy.html><i></i>Cose legali</a></li>
+  <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btn"><img class="menuicon" src="../icons/menu.png"></i>
+      <i class="fas fa-times" id="cancel"><img class="menuicon" src="../icons/indietro.png"></i>
+    </label>
+    <div class="sidebar">
+    <header>F4L5J</header>
+  <ul>
+<li><a href="../index.html"><i></i>Home</a></li>
+<li><a href="../aperitivi.html"><i></i>Aperitivi</a></li>
+<li><a href="../privacypolicy.html"><i></i>Cose legali</a></li>
 </ul>
 </div>
 <br><br><br><br><br>
-<h1 class=maintitle>Martini</h1>
-<img src=images/martini2.jpg class="imgggschedule"alt=drink>
-<br>
-<div class=rapidinfo>
-<div class=flexitemdetails>
-<h3 class=itemdetails>Gusto</h3><h3 class=itemdetails>secco</h3>
+  <h1 class="maintitle">Martini</h1>
+  <img src="images/martini2.jpg" class="imgggschedule"alt="drink">
+  <br>
+  <div class="rapidinfo">
+    <div class="flexitemdetails">
+      <h3 class="itemdetails">Gusto</h3><h3 class="itemdetails">secco</h3>
+    </div>
+    <div class="flexitemdetails">
+      <h3 class="itemdetails">Grado alcolico</h3><h3 class="itemdetails">29,8</h3>
+    </div>
+  </div>
+  <p>Il Martini è una bevanda alcolica con un gusto forte. È all'interno dell'IBA con il nome Dry Martini</p>
+  <p>Ingredienti</p>
+  <ul>
+    <li class="ingredient"><a href="ingredienti/gin.html">Gin</a> 6 cl</li>
+    <li class="ingredient"><a href="ingredienti/vermut.html">Dry vermut</a> 1 cl</li>
+  </ul>
+  <h2 class="titleschedule">Preparazione</h2>
+  <p>Si prende un bicchiere a coppa e lo si riempe di ghiaccio così da raffredarlo. Poi si prende un bicchiere, lo si riempo di ghiaccio, si versa all'interno prima il <a href="ingredienti/vermut.html">vermut</a> e poi il gin e si mescola. Prendete il bicchiere a coppa togliete il ghiaccio e l'eventuale acqua poi versare il contenuto dell'altro bicchiere filtrandolo con uno strainer</p>
+  <div class="flexcookies">
+    <div class="alcol-container">
+      <h4 id="alcolscritta">
+        Ricordiamo che in italia è vietata la vendita di alcolici ai minori di 18 anni.<br><br>È sconsigliato assumere alcol fino all'età di 18 anni perché l'etanolo interferisce con lo sviluppo cerebrale.
+      </h4>
+        <button class="alcol-btn">HO CAPITO</button>
+    </div>
 </div>
-<div class=flexitemdetails>
-<h3 class=itemdetails>Grado alcolico</h3><h3 class=itemdetails>29,8</h3>
+
+<div class="flexcookies">
+    <div class="cookie-container">
+      <h4 id="cookiescritta">
+        Questo sito usa <a id="linkcookies"href="privacypolicy.html">cookies</a>
+      </h4>
+        <button class="cookie-btn">ACCETTA</button>
+    </div>
 </div>
-</div>
-<p>Il Martini Ã¨ una bevanda alcolica con un gusto forte. Ãˆ all'interno dell'IBA con il nome Dry Martini</p>
-<p>Ingredienti</p>
-<ul>
-<li class=ingredient><a href=ingredienti/gin.html>Gin</a> 6 cl</li>
-<li class=ingredient><a href=ingredienti/vermut.html>Dry vermut</a> 1 cl</li>
-</ul>
-<p>La sua gradazione alcolica Ã¨ di circa 29,8Â°</p>
-<div class=flexcookies>
-<div class=alcol-container>
-<h4 id=alcolscritta>
-Ricordiamo che in italia Ã¨ vietata la vendita di alcolici ai minori di 18 anni.<br><br>Ãˆ sconsigliato assumere alcol fino all'etÃ di 18 anni perchÃ© l'etanolo interferisce con lo sviluppo cerebrale.
-</h4>
-<button class=alcol-btn>HO CAPITO</button>
-</div>
-</div>
-<div class=flexcookies>
-<div class=cookie-container>
-<h4 id=cookiescritta>
-Questo sito usa <a id="linkcookies"href=privacypolicy.html>cookies</a>
-</h4>
-<button class=cookie-btn>ACCETTA</button>
-</div>
-</div>
-<script>function blocco_mousedx(){return(false)}document.oncontextmenu=blocco_mousedx;</script>
-<script>document.onkeydown=function(a){if(event.keyCode==123){return false}if(a.ctrlKey&&a.shiftKey&&a.keyCode=="I".charCodeAt(0)){return false}if(a.ctrlKey&&a.shiftKey&&a.keyCode=="C".charCodeAt(0)){return false}if(a.ctrlKey&&a.shiftKey&&a.keyCode=="J".charCodeAt(0)){return false}if(a.ctrlKey&&a.keyCode=="U".charCodeAt(0)){return false}};</script>
-<script src=../alcoldisclaimer.js></script>
-<script src=../main.js></script>
-<script>$(".menu-icon").click(function(){$(this).toggleClass("active");$(".navigation-menu").toggleClass("active");$(".menu-icon i").toggleClass("fa-times")});</script>
+
+  <script>
+    function blocco_mousedx()
+     { return(false); }
+    document.oncontextmenu = blocco_mousedx;
+  </script>
+  <script>
+   document.onkeydown = function(blocco_tasti) {
+    if(event.keyCode == 123)
+  { return false; }
+    if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'I'.charCodeAt(0)) { return false; }
+    if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'C'.charCodeAt(0)) { return false; }
+    if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'J'.charCodeAt(0)) { return false; }
+    if(blocco_tasti.ctrlKey && blocco_tasti.keyCode == 'U'.charCodeAt(0))
+  { return false; }
+  }
+  </script>
+  <script src="../alcoldisclaimer.js"></script>
+  <script src="../main.js"></script>
+  <script>
+    $(".menu-icon").click(function(){
+      $(this).toggleClass("active");
+      $(".navigation-menu").toggleClass("active");
+      $(".menu-icon i").toggleClass("fa-times");
+    });
+  </script>
 </body>
 </html>
