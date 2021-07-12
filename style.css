@@ -39,6 +39,11 @@ td{
 #secco{
   background-color: #eee8b5;
 }
+.difficolta{
+  position: absolute;
+  height: 22px;
+  margin: 3.5px 0px 3.5px 8px;
+}
 .menu {
   display: none;
   font-family: 'Montserrat-Medium';
@@ -46,7 +51,7 @@ td{
   border-radius: 7px;
   position: fixed;
   width: 180px;
-  height: 125px;
+  height: 105px;
   background-color: white;
   z-index: 2147483630;
   box-shadow: 0px 0px 4px 1px rgba(199,199,199,0.5);
@@ -707,7 +712,7 @@ hr {
   transition: 0.3s;
   width: 180px;
   margin-top: 4px;
-  margin-bottom: 4px;
+  margin-bottom:4px;
   margin-left: 4px;
   margin-right: 4px;
   border-radius: 18px;
